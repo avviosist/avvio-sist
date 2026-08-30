@@ -1,0 +1,112 @@
+body {
+    background-color: #f7d9c4;
+    color: #263238;
+    font-family: 'Poppins', Arial,sans-serif;
+    line-height: 1.6;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.presentacion {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+.descripcion {
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #26323B;
+}
+.servicios>div {
+    max-width: 700px;
+    margin: 30px auto;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.proceso {
+    margin-top: 50px;
+}
+.integral {
+    margin-top: 50px;
+}
+.integral ~ h3 {
+    margin-top: 30px;
+}
+.acompañamiento ~ h3 {
+    margin-top: 50px;
+}
+.equipo ~h3 {
+    margin-top: 50px;
+}
+.logo-principal {
+    margin: 0 auto 10px;
+}
+
+.logo-principal img {
+    width: 150px;
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto 5px;
+}
+.logo-firma {
+    width: 150px;
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin: 25px auto 0;
+}
+.logo-header {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 18px;
+    mix-blend-mode: multiply;
+}
+
+.logo-footer {
+    width: 110px;
+    height: auto;
+    display: block;
+    margin: 22px auto 0;
+    mix-blend-mode: multiply;
+}
+h2 {
+    color: #D71920;
+    font-weigth: 700;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    
+}
+
+h3 {
+    color: #263238
+    font-size: 22px;
+}
+.acento{
+    color: #D71920;
+    font-weight: 600;
+}
+.grupo-avvio {
+    font-weight: 600;
+    color: #26323B;
+}
+.contacto h3 {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.contacto a {
+    color: #263238;
+    text-decoration: none;
+    font-weight: 500;
+}
+.transformar {
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
