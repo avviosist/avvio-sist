@@ -1,4 +1,4 @@
-const CACHE_NAME = "avvio-sist-v1";
+const CACHE_NAME = "avvio-sist-v2";
 
 const ARCHIVOS = [
   "./",
