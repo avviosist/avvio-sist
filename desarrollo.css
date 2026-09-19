@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  color: #263238;
+  font-family: 'Poppins', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.desarrollo {
+  position: relative;
+  min-height: 100vh;
+  padding: 56px 18px 72px;
+  box-sizing: border-box;
+  background-image: url("avvio-desarrollo-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  overflow: hidden;
+}
+
+.velo {
+  position: absolute;
+  inset: 0;
+  background: rgba(248, 245, 235, 0.72);
+  backdrop-filter: blur(1.6px);
+  -webkit-backdrop-filter: blur(1.6px);
+}
+
+.contenido {
+  position: relative;
+  z-index: 1;
+  max-width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 145px;
+  max-width: 48vw;
+  height: auto;
+  display: block;
+  margin: 0 auto 28px;
+  mix-blend-mode: multiply;
+}
+
+h1 {
+  margin: 0 0 20px;
+  color: #263238;
+  letter-spacing: 1px;
+  font-size: clamp(30px, 6vw, 52px);
+}
+
+.apertura {
+  max-width: 780px;
+  margin: 0 auto 42px;
+  font-size: clamp(18px, 3vw, 22px);
+}
+
+.areas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.areas article {
+  padding: 26px 22px;
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid rgba(38, 50, 56, 0.12);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(38, 50, 56, 0.08);
+}
+
+.areas h2 {
+  margin: 0 0 12px;
+  color: #354838;
+  font-size: clamp(21px, 3.6vw, 26px);
+}
+
+.areas p {
+  margin: 0;
+  text-align: center;
+  font-size: 17px;
+}
+
+.contacto {
+  max-width: 520px;
+  margin: 52px auto 0;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.80);
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(38, 50, 56, 0.08);
+}
+
+.contacto h2 {
+  margin: 0 0 10px;
+  color: #354838;
+}
+
+.contacto a,
+.volver {
+  color: #263238;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.volver {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 18px;
+  border: 1px solid rgba(38, 50, 56, 0.25);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.62);
+}
+
+@media (max-width: 700px) {
+  .areas {
+    grid-template-columns: 1fr;
+  }
+
+  .desarrollo {
+    padding-top: 42px;
+  }
+
+  .areas article {
+    padding: 24px 20px;
+  }
+}
