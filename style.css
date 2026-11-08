@@ -1,5 +1,5 @@
 body {
-    background-color: #F1F5FEF;
+    background: linear-gradient(180deg, #FFF8F1 0%, #F8E9DE 100%);
     color: #263238;
     font-family: 'Poppins', Arial,sans-serif;
     line-height: 1.6;
