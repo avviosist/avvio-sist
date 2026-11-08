@@ -20,9 +20,9 @@ body {
 .velo {
   position: absolute;
   inset: 0;
-  background: rgba(248, 245, 235, 0.72);
-  backdrop-filter: blur(1.6px);
-  -webkit-backdrop-filter: blur(1.6px);
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter:none;
 }
 
 .contenido {
@@ -34,7 +34,7 @@ body {
 }
 
 .logo {
-  width: 160px;
+  width: 165px;
   max-width: 48vw;
   height: auto;
   display: block;
