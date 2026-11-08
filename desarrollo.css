@@ -40,6 +40,10 @@ body {
   display: block;
   margin: 0 auto 22px;
   mix-blend-mode: multiply;
+  background: rgba(255, 255, 255, 0.82);
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0 3px 14px rgba(0, 0, 0, 0.12);
 }
 
 h1 {
