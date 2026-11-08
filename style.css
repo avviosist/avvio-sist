@@ -1,60 +1,114 @@
+
+/* AVVIO SIST - NUEVA IDENTIDAD VISUAL */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: linear-gradient(180deg, #FFF8F1 0%, #F8E9DE 100%);
-    color: #263238;
-    font-family: 'Poppins', Arial,sans-serif;
-    line-height: 1.6;
+    background:
+        radial-gradient(ellipse at 15% 15%, rgba(190, 20, 40, 0.30), transparent 38%),
+        radial-gradient(ellipse at 90% 45%, rgba(120, 0, 20, 0.25), transparent 40%),
+        linear-gradient(145deg, #08090D 0%, #19191F 45%, #09090D 75%, #260811 100%);
+    color: #FFFFFF;
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    min-height: 100vh;
 }
+
 h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 25px;
     text-align: center;
 }
+
+h3 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
 p {
+    color: #F0F0F2;
     text-align: center;
 }
+
 .presentacion {
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 20px;
+    max-width: 900px;
+    margin: 35px auto;
+    padding: 35px 22px;
     text-align: center;
+    background: linear-gradient(135deg, rgba(35, 35, 43, 0.85), rgba(12, 12, 17, 0.92));
+    border: 1px solid rgba(220, 35, 55, 0.35);
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
 }
+
 .descripcion {
-    max-width: 600px;
+    max-width: 700px;
     margin: 30px auto;
     font-size: 18px;
-    line-height: 1.6;
-    color: #26323B;
+    line-height: 1.8;
+    color: #F0F0F2;
 }
-.servicios>div {
-    max-width: 700px;
+
+.servicios > div {
+    max-width: 850px;
     margin: 30px auto;
+    padding: 25px;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, rgba(45, 45, 53, 0.92), rgba(19, 19, 25, 0.96));
+    border: 1px solid rgba(210, 35, 55, 0.35);
+    border-left: 4px solid #D71930;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
+
 .proceso {
     margin-top: 50px;
 }
+
 .integral {
     margin-top: 50px;
 }
+
 .integral ~ h3 {
     margin-top: 30px;
 }
+
 .acompañamiento ~ h3 {
     margin-top: 50px;
 }
-.equipo ~h3 {
+
+.equipo ~ h3 {
     margin-top: 50px;
 }
+
 .logo-principal {
-    margin: 0 auto 10px;
+    margin: 0 auto 20px;
+    text-align: center;
 }
 
 .logo-principal img {
-    width: 150px;
+    width: 180px;
     max-width: 75%;
     height: auto;
     display: block;
-    margin: 0 auto 5px;
+    margin: 0 auto 10px;
+    mix-blend-mode: normal;
 }
+
 .logo-firma {
     width: 150px;
     max-width: 45%;
@@ -62,12 +116,13 @@ p {
     display: block;
     margin: 25px auto 0;
 }
+
 .logo-header {
     width: 150px;
     height: auto;
     display: block;
     margin: 0 auto 18px;
-    mix-blend-mode: multiply;
+    mix-blend-mode: normal;
 }
 
 .logo-footer {
@@ -75,52 +130,57 @@ p {
     height: auto;
     display: block;
     margin: 22px auto 0;
-    mix-blend-mode: multiply;
-}
-h2 {
-    color: #D71920;
-    font-weigth: 700;
-    margin-top: 35px;
-    margin-bottom: 25px;
-    
+    mix-blend-mode: normal;
 }
 
-h3 {
-    color: #263238
-    font-size: 22px;
+h2 {
+    color: #FFFFFF;
 }
-.acento{
-    color: #D71920;
-    font-weight: 600;
+
+.acento {
+    color: #FF354B;
+    font-weight: 700;
 }
+
 .grupo-avvio {
     font-weight: 600;
-    color: #26323B;
+    color: #FFFFFF;
 }
+
 .contacto h3 {
     margin-top: 35px;
     margin-bottom: 30px;
 }
+
 .contacto a {
-    color: #263238;
+    color: #FF5365;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
 }
+
+.contacto a:hover {
+    color: #FFFFFF;
+}
+
 .transformar {
     margin-top: 70px;
     margin-bottom: 35px;
 }
+
 .boton-desarrollo {
     display: inline-block;
-    background-color: #c9232b;
+    background: linear-gradient(135deg, #E3263E, #9D1026);
     color: white;
-    padding: 12px 24px;
-    border-radius: 25px;
+    padding: 13px 26px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 18px rgba(215, 25, 48, 0.3);
 }
 
 .boton-desarrollo:hover {
-    background-color: #a51c23;
+    background: linear-gradient(135deg, #FF4055, #C91632);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(215, 25, 48, 0.45);
 }
