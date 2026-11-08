@@ -51,6 +51,8 @@ h1 {
   color: #263238;
   letter-spacing: 1px;
   font-size: clamp(30px, 6vw, 52px);
+  color: #1f2928;
+text-shadow: 0 1px 3px rgba(255, 255, 255, 0.85);
 }
 
 .apertura {
